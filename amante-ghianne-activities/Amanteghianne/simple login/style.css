@@ -1,0 +1,18 @@
+  label{
+        font-size 30px;
+        color:rgb(245, 245, 245)
+      }
+      button{
+      padding: 5px;
+      background-color: rgb(248, 7, 59);
+      }
+
+      #userLabel{
+        background-color: yellow;
+      }
+      #passLabel{
+        background-color:aqua
+      }
+      .labelStyle {
+        background-color: rgb(0, 0, 0);
+      }

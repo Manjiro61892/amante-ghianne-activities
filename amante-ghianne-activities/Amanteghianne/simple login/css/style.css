@@ -1,0 +1,90 @@
+  label{
+        font-size: 20px;
+        color:rgb(245, 245, 245)
+      }
+      button{
+      padding: 5px;
+      background-color: rgb(248, 7, 59);
+      }
+
+      #userLabel{
+        background-color: yellow;
+      }
+      #passLabel{
+        background-color:aqua
+      }
+      .labelStyle {
+        background-color: rgb(0, 0, 0);
+      }
+      .forgot:link {
+        font-size: 20px;
+        color:rgb(0, 0, 0);
+        font-style:italic ;
+      }
+      .forgot:hover {
+        font-size: 50px;
+        color:red;
+        background-color: rgb(63, 189, 147);
+      }
+      .forgot:visited{
+        color:rgb(255, 0, 0);
+        text-decoration: rgb(36, 14, 138);
+        background-color: rgb(0, 195, 255);
+      }
+      .forgot:active{
+        color:gray;
+        text-decoration: rgb(32, 146, 146);
+        background-color: rgb(0, 0, 0);
+      }
+      .draken:hover {
+        font-size: 50px;
+        color:red;
+        background-color: rgb(63, 189, 147);
+      }
+      .draken:visited{
+        color:rgb(255, 0, 0);
+        text-decoration: rgb(36, 14, 138);
+        background-color: rgb(0, 195, 255);
+      }
+      .draken:active{
+        color:gray;
+        text-decoration: rgb(32, 146, 146);
+        background-color: rgb(0, 0, 0);
+      }
+      .card{
+        background-color:rgb(0, 255, 213);
+        width: 1000px;
+        max-width: 1000px;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      .ediwow:hover {
+        font-size: 50px;
+        color:red;
+        background-color: rgb(63, 189, 147);
+      }
+      .ediwow:visited{
+        color:rgb(255, 0, 0);
+        text-decoration: rgb(36, 14, 138);
+        background-color: rgb(0, 195, 255);
+      }
+      .ediwow:active{
+        color:gray;
+        text-decoration: rgb(32, 146, 146);
+        background-color: rgb(0, 0, 0);
+      }
+      .manjiro:hover {
+        font-size: 50px;
+        color:red;
+        background-color: rgb(63, 189, 147);
+      }
+      .manjiro:visited{
+        color:rgb(255, 0, 0);
+        text-decoration: rgb(36, 14, 138);
+        background-color: rgb(0, 195, 255);
+      }
+      .manjiro:active{
+        color:gray;
+        text-decoration: rgb(32, 146, 146);
+        background-color: rgb(0, 0, 0);

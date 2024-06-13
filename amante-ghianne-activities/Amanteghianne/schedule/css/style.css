@@ -1,0 +1,146 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 120px auto auto auto auto auto;
+    background-color: #aa4f6e;
+    padding: 10px;
+
+    /*gap: 100px 200px;
+    column-gap: 50px;
+    row-gap: 50px;*/
+}
+
+.grid-item {
+    background-color: rgba(212, 34, 108, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.item1 {
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.item2 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.item3 {
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.item4 {
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.item5 {
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.item6 {
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.item7 {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.item8 {
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.item9 {
+    grid-row-start: 7;
+    grid-row-end:11;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.item10 {
+    grid-row-start: 7;
+    grid-row-end:11;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.item11 {
+    grid-row-start: 9;
+    grid-row-end:11;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

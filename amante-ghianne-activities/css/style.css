@@ -1,0 +1,90 @@
+.static {
+    position: relative;
+    left:0px;
+    top: 80px;
+    height: 300px;
+    width: 700px;
+    background-color:darkslategray;
+    color:rgb(0, 0, 0);
+    margin:5px;
+    padding:10px;
+    border: 5px solid #67C6E3;
+}
+
+.relative {
+    position: relative;
+    left:750px;
+    top: -3350px;
+    bottom: 0px;
+    width: 450px;
+    height: 100px;
+    background-color:rgb(22, 223, 223);
+    color:rgb(18, 19, 19);
+    margin:0px;
+    padding:5px;
+    border: 3px solid #f8fafa;
+}
+
+.fixed {
+    position: fixed;
+    top:0;
+    left:0;
+    background-color:darkslategray;
+    color:rgb(0, 0, 0);
+    width:100%;
+    padding:10px;
+    border: 5px solid #67C6E3;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top:100px;
+    padding: 5px;
+    width: 730px;
+    height: auto;
+    font-size: large;
+    background-color:darkslategrey;
+    color:aquamarine;
+    border: 5px solid #67C6E3;
+}
+
+.fa{
+    padding:20px;
+    font-size: 30px;
+    width:30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: rgb(255, 255, 255);
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+
